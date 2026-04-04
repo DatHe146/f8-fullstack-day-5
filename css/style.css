@@ -64,7 +64,7 @@ h1{
     margin-left: auto;
 }
 
-ul {
+.ul-cv {
     list-style-type: disc; /* Hiện lại dấu chấm tròn */
     padding-left: 25px;    /* Tạo khoảng trống để dấu chấm hiển thị */
 }
@@ -86,4 +86,33 @@ ul li{
 .footer{
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+
+/* menu */
+
+.menu{
+    width: 100%;
+    background-color: #455bc4;
+    padding: 0 40px;
+    font-size: 0;
+    font-weight: bold;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0;
+}
+
+.menu li a{
+    display: inline-block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu .active a:hover {
+    color: #000;
+    background: white;
 }
